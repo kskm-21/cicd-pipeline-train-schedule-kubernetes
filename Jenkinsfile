@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "kskm-21/kube-project"
+        DOCKER_IMAGE_NAME = "skrishnamk/kube-project"
     }
     stages {
         stage('Build') {
